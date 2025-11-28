@@ -47,12 +47,15 @@
 ## ⚙️ Установка и запуск
 
 1. Установите зависимости:
+   
    pip install -r requirements.txt
 
 2. Для запуска всех тестов:
+   
    python -m unittest discover -s . -p "test_*.py" -v
 
 3. Для запуска отдельных групп:
-python -m unittest discover -s tests -v
-python -m unittest discover -s api_tests -v
-python -m unittest discover -s selenium_tests -v
+   
+   python -m unittest discover -s tests -v
+   python -m unittest discover -s api_tests -v
+   python -m unittest discover -s selenium_tests -v
