@@ -57,5 +57,7 @@
 3. Для запуска отдельных групп:
    
    python -m unittest discover -s tests -v
+   
    python -m unittest discover -s api_tests -v
+   
    python -m unittest discover -s selenium_tests -v
